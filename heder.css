@@ -1,0 +1,59 @@
+/* header */
+.close {
+  width: 40px;
+}
+header {
+  position: fixed;
+  top: 0;
+  height: 85px;
+  width: 100%;
+  background-color: var(--panel-color);
+  z-index: 2;
+}
+
+.hamburger {
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+}
+.serch {
+  position: relative;
+  height: 45px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 30px;
+}
+.ob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px 10px 15px;
+}
+
+.serch input {
+  position: absolute;
+  border: 1px solid var(--border-color);
+  background-color: var(--panel-color);
+  padding: 0 25px 0 50px;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+}
+.bo {
+  position: absolute;
+  left: 0px;
+  font-size: 22px;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--grey);
+}
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
